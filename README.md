@@ -12,6 +12,19 @@ A Retrieval-Augmented Generation (RAG) based Mobile Recommendation System that r
 * Metadata-aware retrieval
 * Natural language query support
 
+## 📂 Project Structure
+
+mobile-rag-system/
+├── Data/
+│   └── Mobiles Dataset.csv      # Mobile phone dataset
+├── ingest.py                    # Data ingestion, chunking, embedding generation, and storage in Weaviate
+├── app.py                       # FastAPI application for retrieval and recommendation
+├── docker-compose.yml           # Weaviate container configuration
+├── venv/                        # Python virtual environment
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+
+
 ## Tech Stack
 
 * Python
@@ -46,7 +59,7 @@ This project uses **Weaviate** as the vector database to store and retrieve mobi
 
 ### Workflow
 
-→ Mobile Dataset
+Mobile Dataset
 → Embedding Generation
 → Weaviate Storage
 → Semantic Retrieval
