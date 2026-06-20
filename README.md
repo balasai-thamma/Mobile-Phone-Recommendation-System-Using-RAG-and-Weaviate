@@ -33,6 +33,28 @@ A Retrieval-Augmented Generation (RAG) based Mobile Recommendation System that r
 * Llama3.2 (1B)
 * Gemma3 (270M)
 
+## Vector Database - Weaviate
+
+This project uses **Weaviate** as the vector database to store and retrieve mobile phone embeddings generated using the **BAAI/bge-small-en-v1.5** embedding model.
+
+### Why Weaviate?
+
+* Fast semantic search
+* Stores vectors and metadata together
+* Scalable and production-ready
+* Efficient similarity-based retrieval
+
+### Workflow
+
+→ Mobile Dataset
+→ Embedding Generation
+→ Weaviate Storage
+→ Semantic Retrieval
+→ LLM Recommendation
+
+When a user submits a query, it is converted into an embedding and matched against stored vectors in Weaviate to retrieve the most relevant mobile phones, which are then passed to the LLMs for recommendation.
+
+
 ## Architecture
 
 Dataset (CSV)
