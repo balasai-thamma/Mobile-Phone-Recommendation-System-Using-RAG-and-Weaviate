@@ -1,0 +1,46 @@
+{
+  "user_query": "best camera mobile",
+  "chunking_details": {
+    "chunking_method": "Row Based Chunking",
+    "total_records": 1860,
+    "retrieved_chunks": 5
+  },
+  "top_recommendation": {
+    "recommended_by": "Qwen2.5",
+    "model": "One Vision 3 256GB",
+    "company": "Motorola",
+    "ram": "8GB",
+    "battery": "3,500mAh",
+    "processor": "Exynos 9609",
+    "launch_year": "2024",
+    "price": "INR 22,999",
+    "raw_model_output": "One Vision 3 256GB",
+    "match_type": "exact"
+  },
+  "other_model_recommendations": [
+    {
+      "recommended_by": "Llama3.2",
+      "model": "Reno9 Pro+ 5G 256GB",
+      "company": "Oppo",
+      "ram": "16GB",
+      "battery": "4,700mAh",
+      "processor": "Snapdragon 8+ Gen 1",
+      "launch_year": "2022",
+      "price": "INR 52,999",
+      "raw_model_output": "Reno9 Pro+ 5G 256GB",
+      "match_type": "exact"
+    },
+    {
+      "recommended_by": "Gemma3",
+      "model": "One Vision 3 128GB",
+      "company": "Motorola",
+      "ram": "6GB",
+      "battery": "3,500mAh",
+      "processor": "Exynos 9609",
+      "launch_year": "2024",
+      "price": "INR 19,999",
+      "raw_model_output": "- One Vision 3 128GB",
+      "match_type": "exact"
+    }
+  ]
+}
